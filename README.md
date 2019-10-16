@@ -3,7 +3,7 @@ Simple money transfer api using Javalin framework
 
 #### Run:
 1. build `./gradlew clean build`
-2. run `java -jar build/libs/transfers-backend-all.jar
+2. run `java -jar build/libs/transfers-backend-all.jar`
 
 #### Endpoints
 base path /api
@@ -17,9 +17,9 @@ POST /accounts
 create account:
 ```json
 {
-	"account": {
-		"amount": 5
-	}
+  "account": {
+    "amount": 5
+  }
 }
 ```
 
@@ -31,10 +31,10 @@ POST /transfers
 make transfer:
 ```json
 {
-	"transfer": {
-		"fromAccountId": 1,
-		"toAccountId": 2,
-		"amount": 1.17
-	}
+  "transfer": {
+	"fromAccountId": 1,
+	"toAccountId": 2,
+	"amount": 1.17
+  }
 }
 ```
