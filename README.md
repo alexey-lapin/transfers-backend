@@ -1,7 +1,7 @@
 ### transfers backend
 Simple money transfer api using Javalin framework
 
-#### Run:
+#### Run
 1. build `./gradlew clean build`
 2. run `java -jar build/libs/transfers-backend-all.jar`
 
