@@ -21,10 +21,10 @@ class BaseTest {
 
     private static final int DEFAULT_TEST_POST = 8000;
 
+    private static final String PATH_API = "/api";
     private static final String PATH_ACCOUNTS = "/accounts";
     private static final String PATH_ACCOUNTS_ID = "/accounts/{id}";
-    private static final String PATH_API = "/api";
-    public static final String PATH_TRANSFER = "transfer";
+    private static final String PATH_TRANSFER = "transfers";
 
     private static Javalin app;
     static RequestSpecification spec;
