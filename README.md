@@ -32,9 +32,9 @@ make transfer:
 ```json
 {
   "transfer": {
-	"fromAccountId": 1,
-	"toAccountId": 2,
-	"amount": 1.17
+    "fromAccountId": 1,
+    "toAccountId": 2,
+    "amount": 1.17
   }
 }
 ```
